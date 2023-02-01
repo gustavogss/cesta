@@ -1,20 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StatusBar, View } from 'react-native';
+import Header from './src/components/Header';
+import Home from './src/screens/Home';
+import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
 
 export default function App() {
+  const [loadFonts] = useFonts({
+    "MontserratRegular": Montserrat_400Regular,
+    "MontserratBold": Montserrat_700Bold,
+  });
+  if(!loadFonts){
+    return null;
+  }
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView>
+    <StatusBar/>  
+    <Header />
+    <Home />
+    </SafeAreaView>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
