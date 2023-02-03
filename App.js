@@ -1,5 +1,4 @@
 import { SafeAreaView, StatusBar, View } from 'react-native';
-import Header from './src/components/Header';
 import Home from './src/screens/Home';
 import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
 
@@ -13,8 +12,7 @@ export default function App() {
   }
   return (
     <SafeAreaView>
-    <StatusBar/>  
-    <Header />
+    <StatusBar/>      
     <Home />
     </SafeAreaView>
   );
