@@ -15,7 +15,7 @@ const cesta = {
         logoFarm: logo,
         nameFarm: "Hort Fruit Farm",
         description: "Uma cesta de produtos orgânicos selecionados diretamente da fazenda para sua cozinha",
-        price: "R$ 40,00"
+        price: "R$ 40,00",        
     },
     itens: {
         titulo: "Itens da cesta",
