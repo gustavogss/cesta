@@ -6,5 +6,6 @@ Aplicativo para organizar sua cesta de frutas e verduras
 - [VsCode](https://code.visualstudio.com/)
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
+- [FlatList](https://reactnative.dev/docs/flatlist)
 - [Google Fonts - Montserrat](https://fonts.google.com/specimen/Montserrat?query=mont)
 

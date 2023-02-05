@@ -18,7 +18,7 @@ const cesta = {
         price: "R$ 40,00",        
     },
     itens: {
-        titulo: "Itens da cesta",
+        titulo: "Itens da Cesta",
         lista: [
           {
             nome: "Tomate",

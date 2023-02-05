@@ -10,23 +10,18 @@ import { StyleSheet } from "react-native";
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-        paddingVertical: 16, 
-        marginLeft: 40,
-        marginRight: 40, 
+        paddingVertical: 16,     
+        marginHorizontal: 16,    
         borderBottomWidth: 1,
         borderBottomColor: '#eee',            
     },    
     itens:{
         fontSize: 16,
         fontWeight: 'bold',
-        lineHeight: 16,
+        lineHeight: 16,        
         color: '#aaa',
     },
-    texto:{
-        fontSize: 20,
-        fontWeight: 'bold',
-        textAlign: 'center',        
-    },
+   
     imagem:{
         width: 50,
         height: 50,

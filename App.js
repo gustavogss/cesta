@@ -21,7 +21,7 @@ export default function App() {
   }
 
   return (
-    <SafeAreaView onLayout={onLayoutRootView}>
+    <SafeAreaView onLayout={onLayoutRootView} style={{flex:1}}>
     <StatusBar/>      
     <Home {...mocks}/>
     </SafeAreaView>
