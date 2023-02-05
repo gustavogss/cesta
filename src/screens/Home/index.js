@@ -1,15 +1,19 @@
-import { View } from "react-native";
+import { View, ScrollView } from "react-native";
 import Button from "../../components/Button";
 import DetailsCesta from "../../components/DetailsCesta";
 import Header from "../../components/Header";
+import Itens from "../../components/Itens";
 import styles from "./styles";
 
-export default function Home({header, details}) {
+export default function Home({header, details, itens}) {
   return (
-    <>
-      <Header {...header} />
-      <DetailsCesta {...details}/>
-      <Button name="Comprar" />
-    </>
+    <ScrollView>
+      <Header {...header} />  
+      <View style={styles.container}>
+      <DetailsCesta {...details}/> 
+      <Button name="Comprar" />        
+      <Itens {...itens} />
+      </View>      
+      </ScrollView>      
   );
 }

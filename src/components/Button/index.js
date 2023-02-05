@@ -1,4 +1,5 @@
-import { Text, TouchableOpacity } from 'react-native'
+import {TouchableOpacity } from 'react-native'
+import Font from '../../components/Fonts'
 import styles from './styles'
 
 export default function Button({name}) {
@@ -7,7 +8,7 @@ export default function Button({name}) {
     style={styles.bntCompras}
     onPress={() =>{}}
     >
-      <Text style={styles.texto}>{name}</Text>
+      <Font style={styles.texto}>{name}</Font>
     </TouchableOpacity>
   )
 }
