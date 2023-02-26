@@ -1,5 +1,5 @@
 # Projeto Cesta :grapes:
-Aplicativo para organizar sua cesta de frutas e verduras
+Aplicativo para organização de uma cesta de verduras e frutas
 
 ## Tecnologias e Ferramentas utilizadas :robot:
 
